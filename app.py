@@ -34,7 +34,7 @@ st.title("Chatbots to Help You Raise Your Child/子育てを助けるチャッ�
 st.image("life advice.png")
 st.write("Do you have any problems raising your child? / 子育てについて、なにかお悩みですか？")
 
-user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
+user_input = st.text_input("Enter your message / メッセージを入力してください。", key="user_input", on_change=communicate)
 
 if st.session_state["messages"]:
     messages = st.session_state["messages"]
