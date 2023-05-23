@@ -31,7 +31,7 @@ def communicate():
 
 # Building user interfaces / ユーザーインターフェイスの構築
 st.title("Chatbots to Help You Raise Your Child/子育てを助けるチャットボット")
-st.image("life advice.png")
+st.image("raiseyourchild.png")
 st.write("Do you have any problems raising your child? / 子育てについて、なにかお悩みですか？")
 
 user_input = st.text_input("Enter your message / メッセージを入力してください。", key="user_input", on_change=communicate)
